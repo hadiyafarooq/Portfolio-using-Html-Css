@@ -1,0 +1,268 @@
+body{
+    background: #dce0e6;
+}
+
+
+.mainheading {
+    background-color: rgb(123,136,155);
+    margin-left: 50px;
+    margin-bottom: 90px;
+    width: 92%;
+    height: 550px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Slab",serif;
+    color: white;
+    font-weight: normal;
+    
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+h3{
+    margin-top:80px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    border-style: solid;
+    border-color: #51426e;
+    margin-left:-23px;
+    margin-right:0px;
+}
+
+h4{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    margin-left:-20px;
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-color: #51426e;
+    margin-left:-23px;
+}
+
+h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    border-style: solid;
+    border-color: #665882;
+    margin-left:-23px;
+}
+p{
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin-left: 540px;
+    margin-right: 260px;
+    margin-top: 150px;
+}
+
+.NavigationBar{
+    width:1330px;
+    height:80px;
+    margin-left: -16px;
+}
+
+.NavigationBar ul{
+    overflow: auto;
+    font-size: 20px;
+}
+.NavigationBar li{
+    padding: 30px;
+    float:left;
+    list-style-type: none;
+    color: #665882;
+}
+.NavigationBar li a{
+    text-decoration: none;
+    color: #665882;    
+}
+
+.NavigationBar a:hover{    
+    font-weight: bold;
+    text-decoration: underline;
+    /*text-decoration-color: #345661;*/
+}
+
+.signature{
+margin-top:-90px;
+margin-left: 1050px;
+width:300px;
+}
+
+.imageborder {
+    background-color: white;
+    border-radius: 101%;
+    margin-top: 151px;
+    margin-left: 200px;
+    margin-right: 90px;
+    width: 302px;
+    position: absolute;
+}
+
+.profilepic {
+
+    border-radius: 100%;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    width: 300px;
+
+}
+
+.sociallinks{
+    height:80px;
+    margin-left: 720px;
+
+}
+.sociallinks ul{
+    overflow: auto;
+}
+.sociallinks li{
+    padding: 20px;
+    padding-top:25px;
+    float:left;
+    list-style-type: none;
+}
+.sociallinks li a{
+    text-decoration: none;
+    color: #dce0e6;  
+}
+
+.sociallinks a:hover{    
+    font-weight: bold;
+    text-decoration-color: #ffff;
+}
+
+.project{
+    background-color: rgb(123,136,155);
+    margin-top: -70px;
+    margin-left: 50px;
+    width: 92%;
+    height: 550px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Slab",serif;
+    color: white;
+    font-weight: normal;
+
+}
+
+.ProjectImages
+{
+    width: 300px;
+    height: 245px;
+    margin-top: 15px;
+    border-radius: 40%;
+}
+
+.projectborder
+{
+    background-color: #5b6675;
+    border-style: solid;
+    width: 325px;
+    height: 275px;
+    margin: 10px;
+    text-align: left;
+    padding-left: 25px;
+    position:absolute;
+    border-radius: 40%;
+}
+
+.workexperience{
+    background-color: rgb(123,136,155);
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 92%;
+    height: 1050px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Slab",serif;
+    color: white;
+    font-weight: normal;
+
+}
+
+.textborder
+{
+    border-style: solid;
+    width: 325px;
+    height: 275px;
+    margin: 10px;
+    text-align: left;
+    padding-left: 25px;
+    border-radius: 1%;
+
+}
+
+.about{
+    background-color: rgb(123,136,155);
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 92%;
+    height: 750px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Slab",serif;
+    color: white;
+    font-weight: normal;
+
+}
+
+.aboutme{
+   
+    margin-left:-300px;
+    color:#5b6675;
+    font-size:25px;
+}
+
+.uni{
+    background-color: #736b9c; 
+    margin-left: 460px; 
+    width:900px; 
+    border-radius: 4px;
+    color: black;
+    font-size: 20px;
+}
+
+.courses{
+    background-color: #736b9c; 
+    margin-left: 758px; 
+    width:900px; 
+    border-radius: 4px;
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    height: 30px;
+    padding:30px;
+    font-family: "Roboto Slab",serif;
+}
